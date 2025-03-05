@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Week 8 Lectures Boxes</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style> 
+        /* week 8 lecture */
+
+        div {
+            border: 1px solid black;
+            /* top, right, bottom, left */
+            /* margin: 1em 2em 3em 2em;  */
+            width: 90%;
+            margin: auto;
+        }
+
+        /* div {
+            border-bottom-width: 10px;
+            border-bottom-style: dashed;
+            border-bottom-color: hsl(291,100%,50%);
+            margin: 2em;
+        } */
+
+        html {
+            font-size: 1rem;
+        }
+
+        p {
+            border: 1px solid black;
+            margin: 2rem;
+            padding: 2rem;
+        }
+
+        b {
+            border: 1px solid black;
+            margin: 2em;
+            padding: 2em;
+        }
+
+        .big, .small {
+            border: 10px solid black;
+            font-size: 3rem;
+        }
+
+        .big {
+            width: 300px;
+        }
+
+        .small {
+            box-sizing: border-box;
+            padding: 10px;
+            width: 100%;
+        }
+        </style>
+
+    </head>
+    <body>
+        <main class="lecture-page">
+            <h1>Index</h1>
+            <a href="../index.html">Back to Uncle Rick's</a><br>
+            <a href="lecture.html">To Lecture Main</a><br>
+            <a href="week5.html">To Week 5 Lectures</a><br>
+            <a href="week6.html">To Week 6 Lecture</a><br>
+            <br><br>
+        </main>
+
+        <div>
+        <h1>BOX!</h1>
+        <div> I'm in a box in another box!</div>
+        <h2>End BOX!</h2>
+        </div>
+
+        <p>This is <b>bold.</b></p>
+
+        <div class="big">big box
+            <div class="small">little box</div>
+        </div>
+    
+
+    </body>
+</html>
