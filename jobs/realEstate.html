@@ -5,6 +5,41 @@
         <link rel="stylesheet" href="../css/style.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "RealEstateAgent",
+            "name": "Ricky Chen",
+            "description": "Real Estate Agent at New Home Collectives, a subgroup of eXp Realty",
+            "memberOf": {
+                "@type": "Organization",
+                "name": "New Home Collectives",
+                "parentOrganization": {
+                    "@type": "Organization",
+                    "name": "eXp Realty"
+                }
+            },
+            "location": {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Lexington",
+                    "addressRegion": "KY"
+                }
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+12702319933",
+                "contactType": "customer service",
+                "email": "ricky.chenwok@gmail.com"
+            },
+            "hasCredential": {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Kentucky Real Estate License",
+                "credentialCategory": "Real Estate License"
+            }
+        }
+        </script>
     </head>
 
     <body>
@@ -12,6 +47,7 @@
             <h1>Welcome to Uncle Rick's!</h1>
             <nav>
                 <ul>
+                    <li><a href="../index.html">Home</a></li>
                     <li><a href="realEstate.html">Real Estate</a></li>
                     <li><a href="webDevelopment.html">Web Development</a></li>
                     <li><a href="cybersecurity.html">Cybersecurity</a></li>
@@ -24,31 +60,88 @@
         </header>
 
         <main class="lecture-page">
-            <h1>Certificates</h1>
-            <a href="../index.html">Back to Uncle Rick's</a>
-            <br><br>
+            <h2>Real Estate Services</h2>
             
-            <div class="current-position">
+            <section class="introduction">
+                <h2>Professional Real Estate Services in Kentucky</h2>
+                <p>Welcome to my real estate services page! I am dedicated to helping clients find their dream homes in Kentucky, providing expert guidance and personalized service throughout the entire real estate journey.</p>
+            </section>
+
+            <section class="current-position">
                 <h2>Current Position</h2>
-                <p>I am currently working with <strong>New Home Collectives</strong>, a subgroup of eXp Realty, helping clients find their dream homes in Kentucky. Starting March 21st, 2024, under the mentorship of Bob Sophiea.</p>
-            </div>
-            <br>
-            
-            <div class="media-container">
-                <img src="../media/colibri_certificate.png"
-                    alt="Picture of a Kentucky real estate course completion certificate from Colibri Real Estate"
-                    width="600"
-                    height="460">
-                <p>A picture of Ricky's Kentucky real estate certificate</p>
-            </div>
-            <hr>
-            <div class="media-container">
-                <img src="../media/inactive_license.png"
-                    alt="Picture of a Kentucky real estate commission OP Number and License Number for Ricky Chen"
-                    width="600"
-                    height="430">
-                <p>A picture of Ricky's Real Estate License Certificate</p>
-            </div>
+                <p>I am currently working with <strong>New Home Collectives</strong>, a subgroup of eXp Realty, helping clients find their dream homes in Kentucky. I am fortunate to be mentored by two exceptional professionals in the field:</p>
+                <ul>
+                    <li><strong>Bob Sophiea</strong> - Providing guidance and expertise in real estate practices</li>
+                    <li><strong>Madison Feldman</strong> - Offering mentorship and support in building a successful real estate career</li>
+                </ul>
+            </section>
+
+            <section class="services">
+                <h2>Services Offered</h2>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <h3>Buyer Representation</h3>
+                        <ul>
+                            <li>Property search and evaluation</li>
+                            <li>Market analysis and pricing guidance</li>
+                            <li>Negotiation and contract assistance</li>
+                            <li>Closing process support</li>
+                        </ul>
+                    </div>
+                    <div class="service-item">
+                        <h3>Seller Representation</h3>
+                        <ul>
+                            <li>Property valuation and pricing strategy</li>
+                            <li>Marketing and promotion</li>
+                            <li>Showings and open houses</li>
+                            <li>Offer evaluation and negotiation</li>
+                        </ul>
+                    </div>
+                    <div class="service-item">
+                        <h3>New Construction</h3>
+                        <ul>
+                            <li>New home community expertise</li>
+                            <li>Builder relationship management</li>
+                            <li>Customization guidance</li>
+                            <li>Construction process oversight</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="certifications">
+                <h2>Professional Credentials</h2>
+                <div class="media-container">
+                    <img src="../media/colibri_certificate.png"
+                        alt="Picture of a Kentucky real estate course completion certificate from Colibri Real Estate"
+                        width="600"
+                        height="460">
+                    <p>Kentucky Real Estate Course Completion Certificate from Colibri Real Estate</p>
+                </div>
+                <hr>
+                <div class="media-container">
+                    <img src="../media/inactive_license.png"
+                        alt="Picture of a Kentucky real estate commission OP Number and License Number for Ricky Chen"
+                        width="600"
+                        height="430">
+                    <p>Kentucky Real Estate License Certificate</p>
+                </div>
+            </section>
+
+            <section class="why-choose">
+                <h2>Why Choose Me?</h2>
+                <ul>
+                    <li>Dedicated to client satisfaction and success</li>
+                    <li>Strong local market knowledge</li>
+                    <li>Professional mentorship from industry experts</li>
+                    <li>Comprehensive service approach</li>
+                    <li>Commitment to ethical practices</li>
+                </ul>
+            </section>
+
+            <section class="contact-cta">
+                <p>Ready to start your real estate journey? <a href="contactMe.html">Contact me</a> today to discuss your real estate needs!</p>
+            </section>
         </main>
 
         <footer>
