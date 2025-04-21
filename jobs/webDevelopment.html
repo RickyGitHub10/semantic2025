@@ -5,6 +5,19 @@
         <link rel="stylesheet" href="../css/style.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .media-container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            .media-container video {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+        </style>
         <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -56,11 +69,24 @@
             
             <section class="introduction">
                 <h3>Professional Overview</h3>
-                <p>As a web developer with a passion for creating modern, responsive websites, I offer comprehensive web development services that combine technical expertise with creative design. My focus is on delivering user-friendly, accessible, and performant web solutions that help businesses establish a strong online presence.</p>
+                <p>As a web developer with a passion for creating modern, responsive websites, I offer comprehensive web development 
+                    services that combine technical expertise with creative design. My focus is on delivering user-friendly, accessible, 
+                    and performant web solutions that help businesses establish a strong online presence.</p>
+            </section>
+
+            <section class="media-showcase">
+                <h3>My Work in Action</h3>
+                <div class="media-container">
+                    <video src="../media/fellowship map presentation.mp4" controls></video>
+                    <p class="video-description">In this project, I successfully integrated the Google Maps API with Sanity Studio, 
+                        connecting it to the existing fellowship company data. This integration allows for dynamic mapping and 
+                        visualization of fellowship locations, demonstrating my ability to work with external APIs and content management 
+                        systems.</p>
+                </div>
             </section>
 
             <section class="technical-skills">
-                <h3>Technical Expertise</h3>
+                <h2>Technical Expertise</h2>
                 <div class="skills-grid">
                     <div class="skill-category">
                         <h4>Front-end Technologies</h4>
@@ -95,7 +121,7 @@
             </section>
 
             <section class="services">
-                <h3>Services Offered</h3>
+                <h2>Services Offered</h2>
                 <div class="services-list">
                     <div class="service-item">
                         <h4>Website Development</h4>
@@ -128,7 +154,7 @@
             </section>
 
             <section class="development-process">
-                <h3>Development Process</h3>
+                <h2>Development Process</h2>
                 <ol class="process-steps">
                     <li>
                         <h4>Requirements Gathering</h4>

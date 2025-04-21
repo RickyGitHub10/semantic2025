@@ -208,3 +208,19 @@ input[type="submit"], button {
 input[type="submit"]:hover, button:hover {
     background-color: var(--accent-color);
 }
+
+/* List Styles */
+ul, ol {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+ul li, ol li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+ul ul, ol ol {
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
